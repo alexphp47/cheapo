@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">cheapo</string>
+    <string name="btn_flights">Flights</string>
+    <string name="btn_hotels">Hotels</string>
+    <string name="btn_cars">Cars</string>
+    <string name="btn_mytrips">My Trips</string>
+
+    <string name="price_match">Price Match Promise</string>
+</resources>

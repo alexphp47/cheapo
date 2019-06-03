@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/golden_gate"
+
+    tools:context=".MainActivity">
+
+
+        <GridLayout
+            android:id="@+id/chessBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:columnCount="4"
+            android:rowCount="3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="70dp"
+            android:layout_centerHorizontal="true"
+            >
+
+                <ImageButton
+                    android:id="@+id/btn_flights"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_flights"
+                    android:background="@android:color/transparent"
+                    android:layout_margin="5dp" />
+
+                <ImageButton
+                    android:id="@+id/btn_hotels"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_hotels"
+                    android:background="@android:color/transparent"
+                    android:layout_margin="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/btn_cars"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_cars"
+                    android:background="@android:color/transparent"
+                    android:layout_margin="5dp"/>
+
+                <ImageButton
+                    android:id="@+id/btn_trips"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_trips"
+                    android:background="@android:color/transparent"
+                    android:layout_margin="5dp"/>
+
+                <TextView
+                    android:id="@+id/btn_flights_text_view_id"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/btn_flights"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:id="@+id/hotels_text_view_id"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/btn_hotels"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:id="@+id/cars_text_view_id"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/btn_cars"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/text_color" />
+
+                <TextView
+                    android:id="@+id/trips_text_view_id"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/btn_mytrips"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/text_color" />
+
+
+
+        </GridLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/price_match_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/price_match"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+
+            android:textColor="@color/text_color" />
+</LinearLayout>
+</RelativeLayout>
